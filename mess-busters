@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muchiri Mess Busters | Professional House Cleaning Services</title>
+
+    <!-- Tailwind (CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+      .glass { backdrop-filter: blur(10px); background: rgba(255,255,255,0.08); }
+    </style>
+  </head>
+
+  <body class="bg-slate-950 text-slate-100">
+    <!-- Top bar -->
+    <div class="border-b border-white/10">
+      <div class="mx-auto max-w-6xl px-4 py-3 flex flex-col sm:flex-row gap-2 sm:items-center sm:justify-between">
+        <div class="text-sm text-slate-300">
+          Call/SMS/WhatsApp:
+          <a class="text-white font-semibold hover:underline" href="tel:+254748721047">0748721047</a>
+          <span class="mx-2 text-white/20">|</span>
+          Email:
+          <a class="text-white font-semibold hover:underline" href="mailto:muchirimessbusters@gmail.com">muchirimessbusters@gmail.com</a>
+        </div>
+        <div class="text-sm text-slate-300">
+          Your home re-imagined ✨
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="mx-auto max-w-6xl px-4 py-5 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3">
+        <div class="h-10 w-10 rounded-xl bg-white/10 border border-white/10 flex items-center justify-center">
+          <span class="text-xl">🧼</span>
+        </div>
+        <div>
+          <div class="font-extrabold tracking-tight text-lg">Muchiri Mess Busters</div>
+          <div class="text-xs text-slate-300 -mt-0.5">Professional House Cleaning Services</div>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-6 text-sm text-slate-300">
+        <a class="hover:text-white" href="#services">Services</a>
+        <a class="hover:text-white" href="#why-us">Why Us</a>
+        <a class="hover:text-white" href="#pricing">Pricing</a>
+        <a class="hover:text-white" href="#contact">Bookings</a>
+      </nav>
+
+      <div class="flex items-center gap-2">
+        <a
+          href="https://wa.me/254748721047?text=Hello%20Muchiri%20Mess%20Busters!%20I%20would%20like%20to%20book%20a%20cleaning%20service."
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center justify-center rounded-xl bg-emerald-500 px-4 py-2 text-sm font-semibold text-slate-950 hover:bg-emerald-400 transition"
+        >
+          Book on WhatsApp
+        </a>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="relative overflow-hidden">
+      <div class="absolute inset-0 opacity-30">
+        <div class="absolute -top-24 -left-24 h-72 w-72 rounded-full bg-emerald-400 blur-3xl"></div>
+        <div class="absolute top-20 -right-24 h-72 w-72 rounded-full bg-indigo-400 blur-3xl"></div>
+      </div>
+
+      <div class="mx-auto max-w-6xl px-4 py-12 md:py-16 relative">
+        <div class="grid md:grid-cols-2 gap-10 items-center">
+          <div>
+            <p class="inline-flex items-center gap-2 text-xs font-semibold tracking-wide text-emerald-300 bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full">
+              ✅ Reliable • ✅ Thorough • ✅ Affordable
+            </p>
+
+            <h1 class="mt-4 text-4xl md:text-5xl font-extrabold tracking-tight">
+              A spotless home, <span class="text-emerald-300">without the stress</span>.
+            </h1>
+
+            <p class="mt-4 text-slate-300 leading-relaxed">
+              Let <span class="font-semibold text-white">Muchiri Mess Busters</span> transform your home into a spotless sanctuary.
+              From routine cleaning to deep scrubbing, we handle the mess — you enjoy the comfort.
+            </p>
+
+            <div class="mt-6 flex flex-col sm:flex-row gap-3">
+              <a
+                href="#contact"
+                class="rounded-xl bg-white text-slate-950 px-5 py-3 font-semibold hover:bg-slate-200 transition text-center"
+              >
+                Book a Cleaning
+              </a>
+              <a
+                href="#services"
+                class="rounded-xl bg-white/10 border border-white/10 px-5 py-3 font-semibold hover:bg-white/15 transition text-center"
+              >
+                View Services
+              </a>
+            </div>
+
+            <div class="mt-6 flex flex-wrap gap-3 text-sm text-slate-300">
+              <span class="px-3 py-2 rounded-xl bg-white/5 border border-white/10">🧽 Kitchens & Bathrooms</span>
+              <span class="px-3 py-2 rounded-xl bg-white/5 border border-white/10">🪟 Windows & Floors</span>
+              <span class="px-3 py-2 rounded-xl bg-white/5 border border-white/10">🚪 Move-in / Move-out</span>
+            </div>
+          </div>
+
+          <div class="glass border border-white/10 rounded-3xl p-6 md:p-8">
+            <div class="flex items-center justify-between">
+              <h2 class="text-xl font-bold">Quick Booking</h2>
+              <span class="text-xs text-slate-300">Fast response</span>
+            </div>
+
+            <p class="mt-2 text-slate-300 text-sm">
+              Tap WhatsApp for the fastest booking, or use the email/call details below.
+            </p>
+
+            <div class="mt-5 grid gap-3">
+              <a
+                class="w-full rounded-2xl bg-emerald-500 text-slate-950 px-5 py-3 font-semibold hover:bg-emerald-400 transition text-center"
+                target="_blank"
+                rel="noopener"
+                href="https://wa.me/254748721047?text=Hello%20Muchiri%20Mess%20Busters!%20I%20want%20to%20book%20a%20service.%20My%20location%20is%20____%20and%20my%20preferred%20date%20is%20____."
+              >
+                WhatsApp: 0748721047
+              </a>
+
+              <a
+                class="w-full rounded-2xl bg-white/10 border border-white/10 px-5 py-3 font-semibold hover:bg-white/15 transition text-center"
+                href="tel:+254748721047"
+              >
+                Call/SMS: 0748721047
+              </a>
+
+              <a
+                class="w-full rounded-2xl bg-white/10 border border-white/10 px-5 py-3 font-semibold hover:bg-white/15 transition text-center"
+                href="mailto:muchirimessbusters@gmail.com?subject=Cleaning%20Booking%20Request&body=Hello%20Muchiri%20Mess%20Busters,%0A%0AI%20would%20like%20to%20book%20a%20cleaning%20service.%0A%0AName:%20%0APhone:%20%0ALocation:%20%0AService:%20(Deep/General/Move-In%2FMove-Out)%0APreferred%20Date:%20%0AAdditional%20Notes:%20%0A%0AThank%20you!"
+              >
+                Email: muchirimessbusters@gmail.com
+              </a>
+            </div>
+
+            <div class="mt-6 rounded-2xl bg-white/5 border border-white/10 p-4">
+              <p class="text-sm text-slate-300">
+                <span class="font-semibold text-white">Slogan:</span>
+                “Your home re-imagined”
+                <span class="text-white/30">•</span>
+                “Help me make this website” ✅ done.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="mx-auto max-w-6xl px-4 py-14">
+      <div class="flex items-end justify-between gap-6 flex-wrap">
+        <div>
+          <h2 class="text-3xl font-extrabold tracking-tight">Our Services</h2>
+          <p class="mt-2 text-slate-300">Choose the clean that matches your needs.</p>
+        </div>
+        <a
+          href="#contact"
+          class="text-sm font-semibold text-emerald-300 hover:text-emerald-200"
+        >
+          Book now →
+        </a>
+      </div>
+
+      <div class="mt-8 grid md:grid-cols-3 gap-5">
+        <!-- Deep Cleaning -->
+        <div class="rounded-3xl bg-white/5 border border-white/10 p-6 hover:bg-white/7 transition">
+          <div class="text-2xl">🧼</div>
+          <h3 class="mt-3 text-xl font-bold">Deep Cleaning</h3>
+          <p class="mt-2 text-sm text-slate-300 leading-relaxed">
+            Thorough washing of dishes, scrubbing bathrooms and toilets, disinfecting kitchen surfaces,
+            mopping floors, cleaning windows, and reaching those hard-to-clean corners.
+          </p>
+          <div class="mt-5">
+            <a
+              class="inline-flex items-center justify-center rounded-xl bg-white text-slate-950 px-4 py-2 text-sm font-semibold hover:bg-slate-200 transition"
+              target="_blank"
+              rel="noopener"
+              href="https://wa.me/254748721047?text=Hello%20Muchiri%20Mess%20Busters!%20I%20want%20to%20book%20Deep%20Cleaning.%20My%20location%20is%20____%20and%20date%20is%20____."
+            >
+              Book Deep Cleaning
+            </a>
+          </div>
+        </div>
+
+        <!-- General Cleaning -->
+        <div class="rounded-3xl bg-white/5 border border-white/10 p-6 hover:bg-white/7 transition">
+          <div class="text-2xl">🧹</div>
+          <h3 class="mt-3 text-xl font-bold">General Cleaning</h3>
+          <p class="mt-2 text-sm text-slate-300 leading-relaxed">
+            Routine dusting, vacuuming carpets, mopping floors, tidying up rooms, and maintaining a fresh living space.
+          </p>
+          <div class="mt-5">
+            <a
+              class="inline-flex items-center justify-center rounded-xl bg-white text-slate-950 px-4 py-2 text-sm font-semibold hover:bg-slate-200 transition"
+              target="_blank"
+              rel="noopener"
+              href="https://wa.me/254748721047?text=Hello%20Muchiri%20Mess%20Busters!%20I%20want%20to%20book%20General%20Cleaning.%20My%20location%20is%20____%20and%20date%20is%20____."
+            >
+              Book General Cleaning
+            </a>
+          </div>
+        </div>
+
+        <!-- Move-In/Move-Out -->
+        <div class="rounded-3xl bg-white/5 border border-white/10 p-6 hover:bg-white/7 transition">
+          <div class="text-2xl">🚚</div>
+          <h3 class="mt-3 text-xl font-bold">Move-In / Move-Out</h3>
+          <p class="mt-2 text-sm text-slate-300 leading-relaxed">
+            Comprehensive cleaning to prepare homes for new occupants, including all rooms, appliances,
+            fixtures, and thorough sanitization.
+          </p>
+          <div class="mt-5">
+            <a
+              class="inline-flex items-center justify-center rounded-xl bg-white text-slate-950 px-4 py-2 text-sm font-semibold hover:bg-slate-200 transition"
+              target="_blank"
+              rel="noopener"
+              href="https://wa.me/254748721047?text=Hello%20Muchiri%20Mess%20Busters!%20I%20want%20to%20book%20Move-In/Move-Out%20Cleaning.%20My%20location%20is%20____%20and%20date%20is%20____."
+            >
+              Book Move Cleaning
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Us -->
+    <section id="why-us" class="mx-auto max-w-6xl px-4 pb-14">
+      <div class="rounded-3xl bg-white/5 border border-white/10 p-8">
+        <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight">Why choose Muchiri Mess Busters?</h2>
+
+        <div class="mt-6 grid md:grid-cols-3 gap-5 text-slate-300">
+          <div class="rounded-2xl bg-white/5 border border-white/10 p-5">
+            <div class="text-xl">⏱️</div>
+            <div class="mt-2 font-semibold text-white">Time-saving</div>
+            <div class="mt-1 text-sm">We do the heavy lifting so you can focus on work, rest, or family.</div>
+          </div>
+          <div class="rounded-2xl bg-white/5 border border-white/10 p-5">
+            <div class="text-xl">🧴</div>
+            <div class="mt-2 font-semibold text-white">Thorough & Hygienic</div>
+            <div class="mt-1 text-sm">We disinfect key surfaces and reach corners that are usually ignored.</div>
+          </div>
+          <div class="rounded-2xl bg-white/5 border border-white/10 p-5">
+            <div class="text-xl">🤝</div>
+            <div class="mt-2 font-semibold text-white">Reliable service</div>
+            <div class="mt-1 text-sm">Clear communication, professional attitude, and consistent results.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing (simple placeholder section) -->
+    <section id="pricing" class="mx-auto max-w-6xl px-4 pb-14">
+      <div class="flex items-end justify-between gap-6 flex-wrap">
+        <div>
+          <h2 class="text-3xl font-extrabold tracking-tight">Pricing</h2>
+          <p class="mt-2 text-slate-300">
+            Pricing depends on house size, condition, and service type. Request a quick quote on WhatsApp.
+          </p>
+        </div>
+        <a
+          class="rounded-xl bg-emerald-500 text-slate-950 px-4 py-2 text-sm font-semibold hover:bg-emerald-400 transition"
+          target="_blank"
+          rel="noopener"
+          href="https://wa.me/254748721047?text=Hello%20Muchiri%20Mess%20Busters!%20Please%20share%20a%20quote%20for%20(Deep/General/Move)%20Cleaning.%20House%20size:%20__%20Bedrooms.%20Location:%20__.%20Preferred%20date:%20__."
+        >
+          Get a Quote
+        </a>
+      </div>
+
+      <div class="mt-6 grid md:grid-cols-3 gap-5">
+        <div class="rounded-3xl bg-white/5 border border-white/10 p-6">
+          <div class="text-slate-300 text-sm">General Cleaning</div>
+          <div class="mt-2 text-2xl font-extrabold">Quote-based</div>
+          <ul class="mt-4 space-y-2 text-sm text-slate-300">
+            <li>• Dusting & tidying</li>
+            <li>• Vacuum & mop</li>
+            <li>• Fresh living space</li>
+          </ul>
+        </div>
+        <div class="rounded-3xl bg-white/5 border border-white/10 p-6 ring-1 ring-emerald-500/30">
+          <div class="text-emerald-300 text-sm font-semibold">Most requested</div>
+          <div class="mt-2 text-2xl font-extrabold">Deep Cleaning</div>
+          <ul class="mt-4 space-y-2 text-sm text-slate-300">
+            <li>• Bathrooms & toilets</li>
+            <li>• Kitchen disinfecting</li>
+            <li>• Windows & corners</li>
+          </ul>
+        </div>
+        <div class="rounded-3xl bg-white/5 border border-white/10 p-6">
+          <div class="text-slate-300 text-sm">Move-In/Move-Out</div>
+          <div class="mt-2 text-2xl font-extrabold">Quote-based</div>
+          <ul class="mt-4 space-y-2 text-sm text-slate-300">
+            <li>• All rooms cleaned</li>
+            <li>• Fixtures & appliances</li>
+            <li>• Thorough sanitization</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="mx-auto max-w-6xl px-4 pb-16">
+      <div class="rounded-3xl bg-white/5 border border-white/10 p-8">
+        <h2 class="text-3xl font-extrabold tracking-tight">For Bookings</h2>
+        <p class="mt-2 text-slate-300">
+          Reach us via WhatsApp, call/SMS, or email. We respond fast.
+        </p>
+
+        <div class="mt-6 grid md:grid-cols-2 gap-6">
+          <div class="rounded-2xl bg-white/5 border border-white/10 p-6">
+            <div class="text-sm text-slate-300">Call / SMS / WhatsApp</div>
+            <div class="mt-2 text-2xl font-extrabold">
+              <a class="hover:underline" href="tel:+254748721047">0748721047</a>
+            </div>
+
+            <div class="mt-5 flex flex-col sm:flex-row gap-3">
+              <a
+                class="rounded-xl bg-emerald-500 text-slate-950 px-4 py-2 font-semibold hover:bg-emerald-400 transition text-center"
+                target="_blank"
+                rel="noopener"
+                href="https://wa.me/254748721047"
+              >
+                WhatsApp
+              </a>
+              <a
+                class="rounded-xl bg-white text-slate-950 px-4 py-2 font-semibold hover:bg-slate-200 transition text-center"
+                href="tel:+254748721047"
+              >
+                Call now
+              </a>
+            </div>
+
+            <div class="mt-6 text-sm text-slate-300">
+              <span class="font-semibold text-white">Email:</span>
+              <a class="hover:underline" href="mailto:muchirimessbusters@gmail.com">muchirimessbusters@gmail.com</a>
+            </div>
+          </div>
+
+          <!-- Simple form (front-end only) -->
+          <form
+            class="rounded-2xl bg-white/5 border border-white/10 p-6"
+            onsubmit="return handleSubmit(event)"
+          >
+            <div class="text-sm text-slate-300">Quick message (opens WhatsApp)</div>
+            <div class="mt-4 grid gap-3">
+              <input
+                class="w-full rounded-xl bg-slate-900/60 border border-white/10 px-4 py-3 outline-none focus:border-emerald-400"
+                placeholder="Your name"
+                id="name"
+                required
+              />
+              <input
+                class="w-full rounded-xl bg-slate-900/60 border border-white/10 px-4 py-3 outline-none focus:border-emerald-400"
+                placeholder="Location (e.g., Nairobi)"
+                id="location"
+                required
+              />
+              <select
+                class="w-full rounded-xl bg-slate-900/60 border border-white/10 px-4 py-3 outline-none focus:border-emerald-400"
+                id="service"
+                required
+              >
+                <option value="" disabled selected>Select service</option>
+                <option>Deep Cleaning</option>
+                <option>General Cleaning</option>
+                <option>Move-In/Move-Out Cleaning</option>
+              </select>
+              <input
+                class="w-full rounded-xl bg-slate-900/60 border border-white/10 px-4 py-3 outline-none focus:border-emerald-400"
+                placeholder="Preferred date (e.g., Saturday)"
+                id="date"
+              />
+              <textarea
+                class="w-full rounded-xl bg-slate-900/60 border border-white/10 px-4 py-3 outline-none focus:border-emerald-400 min-h-[110px]"
+                placeholder="Extra notes (optional)"
+                id="notes"
+              ></textarea>
+
+              <button
+                class="rounded-xl bg-white text-slate-950 px-4 py-3 font-semibold hover:bg-slate-200 transition"
+                type="submit"
+              >
+                Send on WhatsApp
+              </button>
+              <p class="text-xs text-slate-400">
+                This form doesn’t store data — it just formats your message and opens WhatsApp.
+              </p>
+            </div>
+          </form>
+        </div>
+
+        <div class="mt-8 text-center text-slate-300">
+          <p class="text-sm">
+            Let <span class="font-semibold text-white">Muchiri Mess Busters</span> transform your home into a spotless sanctuary!
+          </p>
+          <p class="mt-1 text-xs text-slate-400">© <span id="year"></span> Muchiri Mess Busters. All rights reserved.</p>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      // Footer year
+      document.getElementById("year").textContent = new Date().getFullYear();
+
+      function handleSubmit(e) {
+        e.preventDefault();
+        const name = document.getElementById("name").value.trim();
+        const location = document.getElementById("location").value.trim();
+        const service = document.getElementById("service").value;
+        const date = document.getElementById("date").value.trim();
+        const notes = document.getElementById("notes").value.trim();
+
+        const msg =
+          `Hello Muchiri Mess Busters!%0A%0A` +
+          `Name: ${encodeURIComponent(name)}%0A` +
+          `Location: ${encodeURIComponent(location)}%0A` +
+          `Service: ${encodeURIComponent(service)}%0A` +
+          (date ? `Preferred date: ${encodeURIComponent(date)}%0A` : "") +
+          (notes ? `%0ANotes: ${encodeURIComponent(notes)}%0A` : "");
+
+        window.open(`https://wa.me/254748721047?text=${msg}`, "_blank");
+        return false;
+      }
+    </script>
+  </body>
+</html>
